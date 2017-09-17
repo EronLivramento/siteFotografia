@@ -1,0 +1,22 @@
+{
+  "name": "site-de-fotografia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EronLivramento/siteFotografia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EronLivramento/siteFotografia/issues"
+  },
+  "homepage": "https://github.com/EronLivramento/siteFotografia#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
