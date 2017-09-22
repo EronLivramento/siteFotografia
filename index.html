@@ -5,12 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Patricia</title>
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="css/cdn/font-awesome.min.css">
-	<link rel="stylesheet" href="css/boot.css">
+	<link rel="stylesheet" href="css/plugins.css">
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-	<header class="container header">
+	<header class="header">
 		<div class="content">
 			<div class="logo">
 				<h1><a href="#" title="Patricia Baumgartner">Patricia Baumgartner</a></h1>
@@ -26,18 +25,38 @@
 			</nav>
 		</div>
 	</header><!-- /header -->
-	<main class="container">
-		<section class="content slide">
-			<div class="descricao">
-				<h1>Aniversario victor</h1>
-					<p>seu 1 aninho.</p>
+	<main>
+		<section class="content">
+			<div class="slide">
+					<figure class="item">
+						<img alt="qualquer coisa" src="http://placekitten.com/1200/600">
+						<figcaption class="descricao">
+							<a href="#">
+								<h3>Aniversario victor</h1>
+								<p>seu 1 aninho.</p>
+							</a>
+							<div class="overlay"></div>
+						</figcaption>
+					</figure>
+
+
+					<figure class="item">
+						<img alt="qualquer coisa" src="http://placekitten.com/1200/600">
+						<figcaption class="descricao">
+							<a href="#">
+								<h3>Aniversario victor</h1>
+								<p>seu 1 aninho.</p>
+							</a>
+							<div class="overlay"></div>
+						</figcaption>
+					</figure>
+
 			</div>
-			<img class="img" alt="qualquer coisa" src="image/capa.jpg">
 
 		</section>
 	</main>
 
-	<footer class="footer container ">
+	<footer class="footer">
 			<div class="content">
 				<div class="logo">
 					<h1><a href="#" title="Patricia Baumgartner">Patricia Baumgartner</a></h1>
@@ -45,7 +64,7 @@
 				</div>
 				<div class="footer-contato">
 					<ul class="social">
-						<li class="fa fa-facebook-f"><a href="" ></a></li>
+						<li class="facebook fa fa-facebook-f"><a href="" >Facebook</a></li>
 						<li class="fa fa-instagram"><a href="" ></a></li>
 						<li class="fa fa-twitter "><a href="" ></a></li>
 					</ul>
@@ -53,5 +72,8 @@
 				</div><!-- footer-contato -->
 			</div><!-- content-->
 	</footer>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/slick-carousel/slick/slick.min.js"></script>
+	<script src="js/slide.js"></script>
 </body>
 </html>
