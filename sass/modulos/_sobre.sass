@@ -1,0 +1,41 @@
+body 
+    background: $branco
+
+main
+    +clearfix
+    width: 100%
+    margin-top: 1%
+
+.sobre
+    +clearfix
+    width: 90%
+    margin: 0 5%
+    background-color: $branco-sobre 
+    box-shadow: 2px 2px 10px rgba(0,0,0,.6)
+    padding: 1em
+
+    h1
+        text-align: center
+        text-transform: uppercase
+        color: $verde
+        +font-size(30px) 
+        padding: 0.35em 0
+
+.sobre-img
+    float: left
+    +img-responsive
+    max-height: 350px
+    //ss+border-radius(50%) 
+    +make-sm-column(3)
+	
+
+.sobre-descricao 
+    float: right
+    width: 40%
+    margin-top: 2%
+    line-height: 1.4em
+    +make-sm-column(5)
+    +make-sm-column-offset(2)
+
+    p 
+        margin-top: 0.3em

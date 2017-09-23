@@ -7,10 +7,13 @@ main
     margin-top: 1%
 
 .content
-    width: 90%
-    margin: 0 5%
+    width: 89%
+    margin: 0 5.5%
 
     .slide 
+        box-sizing: border-box
+        border: 1px solid $branco-sobre 
+        box-shadow: 2px 2px 20px rgba(0,0,0,.6)
 
         li 
             overflow: hidden
@@ -24,6 +27,7 @@ main
                     top: 85%
             img 
                 +img-responsive
+                
 
 .descricao
     a
